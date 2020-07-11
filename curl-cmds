@@ -1,0 +1,7 @@
+POST request with body    --> curl -v -H "Content-Type: application/json" -X POST --data @data.json http://ec2-13-234-115-160.ap-south-1.compute.amazonaws.com:8080/addUser
+
+GET request without param --> curl -i -X GET http://ec2-13-234-115-160.ap-south-1.compute.amazonaws.com:8080/users
+
+GET request with param    --> curl -i -X GET http://ec2-13-234-115-160.ap-south-1.compute.amazonaws.com:8080/getUser?id=4
+
+DELETE request            --> curl -i -X DELETE http://ec2-13-234-115-160.ap-south-1.compute.amazonaws.com:8080/deleteUser?id=1
